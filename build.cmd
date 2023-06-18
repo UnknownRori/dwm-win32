@@ -7,6 +7,6 @@ zig cc ^
     -Iextern/lua-compat-5.3 ^
     extern/lua-compat-5.3/compat-5.3.c ^
     -municode -w -Wl,--subsystem,windows -Wl,--entry,wWinMain -lgdi32 -ldwmapi -luser32 -lshell32 ^
-    -DPROJECT_NAME='"dwm-win32"' -DPROJECT_VER='"0.1.1"' -DPROJECT_VER_MAJOR=0 -DPROJECT_VER_MINOR=1 -DPROJECT_VER_PATCH=1 ^
+    -DPROJECT_NAME='"dwm-win32"' -DPROJECT_VER='"0.1.2"' -DPROJECT_VER_MAJOR=0 -DPROJECT_VER_MINOR=1 -DPROJECT_VER_PATCH=1 ^
     -DNDEBUG -O2 -s ^
     -target x86_64-windows-gnu -std=c99 -pedantic -Wall
